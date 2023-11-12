@@ -1,0 +1,76 @@
+@media only screen and (max-width: 999px) {
+    header .cofunder {
+        display: none;
+    }
+
+    header .logo {
+        position: relative;
+        height: 100%;
+        width: 70%;
+        margin: 0 15% 0 15%;
+    }
+
+    section {
+        position: relative;
+        width: 80%;
+        margin: 0 10% 7.5% 10%;
+    }
+
+    aside {
+        position: relative;
+        width: 80%;
+        margin: 7.5% 10% 7.5% 10%;
+    }
+
+    footer p {
+        font-size: 75%;
+    }
+
+    footer label {
+        font-size: 45%;
+        margin-top: 0;
+    }
+
+    .toggle {
+        height: 100%;
+        width: 25%;
+    }
+
+    footer img {
+        height: 5vW;
+    }
+
+    aside .cofunder {
+        display: block;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .textField {
+        width: 80%;
+        margin-bottom: 15%;
+    }
+
+    .login {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .flag {
+        height: 5vW;
+    }
+
+    .smallFlag {
+        height: 2.5vW;
+    }
+
+    .likes {
+        height: 5vW;
+    }
+    
+    
+    .fileIcon {
+        height: 7.5vW;
+    }
+
+}

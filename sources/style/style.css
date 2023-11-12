@@ -1,0 +1,245 @@
+:root {
+    --firstBlack: black;
+    --secondBlack: #323232;
+    --redColor: #c22b2b;
+    --redSelected: #db6565;
+    --mainColor: var(--secondBlack); /* TRANSITIONAL: swal2 */
+    --blueSelected: var(--firstBlack); /* TRANSITIONAL: swal2 */
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    color: var(--secondBlack);
+}
+
+header {
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+
+header .logo {
+    float: left;
+    height: 10vW;
+}
+
+header .cofunder {
+    float: right;
+    height: 6vW;
+    margin-top: 2vW;
+    margin-right: 0.5vW;
+}
+
+.divider {
+    height: 5px;
+    background-color: var(--firstBlack);
+    clear: both;
+    border: 1px solid var(--firstBlack);
+}
+
+section {
+    float: left;
+    margin: 1.5%  7.5% 10% 3.5%;
+    width: 64%;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    margin: 1.5%  5% 10% 0;
+}
+
+aside div {
+    margin: 5%;
+}
+
+aside ul {
+    line-height: 175%;
+}
+
+footer {
+    background-color: #969696;
+    color: white;
+    padding: 6.5vW;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    font-size: 95%;
+    margin-bottom: 0;
+}
+
+footer label {
+    font-size: 70%;
+}
+
+footer hr {
+    margin-top: 2.5vW;
+    margin-bottom: 2.5vW;
+    height: 1px;
+    color: white;
+    background-color: white;
+    width: 65%;
+}
+
+footer img {
+    height: 2.5vW;
+    margin-right: 1vW;
+}
+
+.link, .redLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: grey;
+}
+
+.link:hover {
+    color: var(--secondBlack);
+    cursor: pointer;
+}
+
+.redLink:hover {
+    color: var(--redColor);
+    cursor: pointer;
+}
+
+.menuLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--secondBlack);
+}
+
+.menuLink:hover {
+    color: var(--firstBlack);
+}
+
+.footerLink {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.footerLink:hover {
+    color: var(--secondBlack);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 175%;
+}
+
+.textField {
+    margin-top: 1vW;
+    margin-bottom: 1vW;
+    border: 0;
+    padding: 5px;
+    border-bottom: 2px solid grey;
+    width: 35%;
+}
+
+.textField:focus {
+    transition: 0.25s;
+    outline: none;
+    border-bottom-color: var(--firstBlack);
+}
+
+.button, button {
+    background-color: var(--secondBlack);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 15px;
+    border-radius: 0.25em;
+    margin-top: 1vW;
+    font-size: 100%;
+}
+
+button:hover, .button:hover {
+    background-color: var(--firstBlack);
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.redButton {
+    background-color: var(--redColor);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 15px;
+    border-radius: 0.25em;
+    margin-top: 1vW;
+    font-size: 100%;
+}
+
+.redButton:hover {
+    background-color: var(--redSelected);
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.flag {
+    height: 1.5vW;
+}
+
+.smallFlag {
+    height: 0.8vW;
+}
+
+.toggle {
+    height: 5vW;
+    margin-bottom: 2.5vW;
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+aside .cofunder {
+    display: none;
+}
+
+article table {
+    width: 100%;
+    vertical-align: middle;
+    padding-bottom: 5vW;
+}
+
+article table td, article table th {
+    padding: 10px;
+}
+
+.articleImage {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.likes {
+    height: 2vW;
+}
+
+.fileIcon {
+    height: 2.5vW;
+}
+
+.contacts {
+	width: 100%;
+	height: 50%;
+	padding: 2.5% 0 2.5% 0;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+		
+.contacts:hover {
+	background-color: lightgrey;
+	cursor: pointer;
+	transition: 0.25s;
+}
+		
+.contacts img {
+	height: 50px;
+	margin-right: 20px;
+}
