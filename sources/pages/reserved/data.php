@@ -1,5 +1,7 @@
 <?php
 
+    require "<path to the php folder>/php/data.php";
+
     session_start();
 
     if(!isset($_SESSION['mail']) || $_SESSION['platform']!="fin-literacy")

@@ -44,7 +44,7 @@ function redirect(a) {
 			link = "mailto:info@fin-literacy.eu";
 			break;
 		case 2:
-			link = "";
+			link = "https://github.com/AlexF1789/fin-literacy";
 			break;
 		default:
 			link = "";

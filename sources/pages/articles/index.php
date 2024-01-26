@@ -1,6 +1,6 @@
 <?php
 
-    require "/home/uerd317k/domains/fin-literacy.eu/public_html/sources/php/data.php";
+    require "<path to the php folder>/php/data.php"; // complete with the path to the php folder in your web server
 
 ?>
 <!-- 
@@ -56,7 +56,7 @@ It's adviced to surf this website using Mozilla Firefox or Google Chrome
         <section>
             <article>
                 <h1>Articles</h1>
-                <p>Here you can find the index of the last pubblished articles ordered by publication date.</p><br>
+                <p>Here you can find the index of the last published articles ordered by publication date.</p><br>
                 
                 <?php
 
@@ -68,7 +68,7 @@ It's adviced to surf this website using Mozilla Firefox or Google Chrome
                         }
                         echo "</ul>";
                     } else
-                        echo "<p style='color: red; font-weight: bold;'>There are no pubblished articles!</a>";
+                        echo "<p style='color: red; font-weight: bold;'>There are no published articles!</a>";
 
                 ?>
             </article>

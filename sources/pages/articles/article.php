@@ -1,6 +1,6 @@
 <?php
 
-    require "/home/uerd317k/domains/fin-literacy.eu/public_html/sources/php/data.php";
+    require "<path to the php folder>/php/data.php"; // complete with the path to the php folder in your web server
 
     session_start();
 
@@ -41,7 +41,8 @@
                 else
                     $liked = false;
             }
-        }
+        } else
+            header("location: /sources/pages/articles/");
     }
 
 ?>
@@ -211,7 +212,7 @@ It's adviced to surf this website using Mozilla Firefox or Google Chrome
     </body>
 
     <script type="text/javascript">
-            message = new Array("Unliked","Liked","Your comment has been pubblished","There was an error pubblishing your comment","There was an error processing the request; try again later.","The comment was correctly deleted.");
+            message = new Array("Unliked","Liked","Your comment has been published","There was an error publishing your comment","There was an error processing the request; try again later.","The comment was correctly deleted.");
             type = new Array("success","success","success","error","error","success");
 
             function collapseComments() {

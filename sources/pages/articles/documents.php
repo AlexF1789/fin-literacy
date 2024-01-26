@@ -1,6 +1,6 @@
 <?php
 
-    require "/home/uerd317k/domains/fin-literacy.eu/public_html/sources/php/data.php";
+    require "<path to the php folder>/php/data.php"; // complete with the path to the php folder
 
 ?>
 <!-- 
@@ -56,7 +56,7 @@ It's adviced to surf this website using Mozilla Firefox or Google Chrome
         <section>
             <article>
                 <h1>Documents</h1>
-                <p>Here you can find the index of the last pubblished documents (like PDFs, PowerPoint presentations, ...) ordered by publication date.</p><br>
+                <p>Here you can find the index of the last published documents (like PDFs, PowerPoint presentations, ...) ordered by publication date.</p><br>
                 
                 <?php
 
@@ -65,11 +65,11 @@ It's adviced to surf this website using Mozilla Firefox or Google Chrome
                         echo "<table><tr><td></td><td></td></tr>";
                         while($a=mysqli_fetch_row($query)) {
                             $ext = end(explode(".", $a[1]));
-                            echo "<tr><td style='width: 2vW'><img src='/sources/images/fileIcons/".$ext."_icon.png' type='image/png' class='fileIcon'></td><td><a href='/sources/docs/pubblished/$a[1]' class='link' target='_blank'>$a[0]</a></td></tr>";
+                            echo "<tr><td style='width: 2vW'><img src='/sources/images/fileIcons/".$ext."_icon.png' type='image/png' class='fileIcon'></td><td><a href='/sources/docs/published/$a[1]' class='link' target='_blank'>$a[0]</a></td></tr>";
                         }
                         echo "</table>";
                     } else
-                        echo "<p style='color: red; font-weight: bold;'>There are no pubblished documents!</a>";
+                        echo "<p style='color: red; font-weight: bold;'>There are no published documents!</a>";
 
                 ?>
             </article>
