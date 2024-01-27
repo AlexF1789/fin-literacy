@@ -16,4 +16,4 @@ The pages contained in the _pages_ and in the _php_ folder have been edited so a
 In particular you have to specify the info about the MySQL server and the pages tree in your hosting implementation.
 
 ### Where can I contact you?
-You can contact me by opening a thread in this GitHub repo.
+You can contact me by opening a thread in this GitHub repo or by sending an email to [info@fin-literacy.eu](mailto:info@fin-literacy.eu).
